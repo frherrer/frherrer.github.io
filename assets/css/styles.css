@@ -1,32 +1,37 @@
-.bg-primary {
-background-color: #EAF2FF!important; 
-color: black !important; 
+:root {
+  --main-color: #1e293b;
+  --accent: #3b82f6;
 }
 
-.imagen-principal {
-  position: relative;
-  background-image: url('../img/banner.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-  z-index: 1;
+body {
+  padding-top: 70px;
+  font-family: system-ui, sans-serif;
 }
 
+.navbar {
+  background-color: var(--main-color);
+}
 
-  .habilidad-item {
-    display: none;
-  }
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+              url("../img/banner.jpg") center/cover;
+}
 
-  .habilidad-activa {
-    display: block;
-  }
+.section {
+  padding: 80px 0;
+}
 
-  .habilidad {
-    text-align: center;
-    padding: 10px;
-  }
+.project-card img {
+  height: 200px;
+  object-fit: cover;
+}
 
-  .habilidad img {
-    width: 100px;
-    height: 100px;
-  }
+.profile-img {
+  width: 220px;
+}
+
+#habilidades img {
+  width: 64px;
+  margin-bottom: 10px;
+}
