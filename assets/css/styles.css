@@ -1,0 +1,32 @@
+.bg-primary {
+background-color: #EAF2FF!important; 
+color: black !important; 
+}
+
+.imagen-principal {
+  position: relative;
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  z-index: 1;
+}
+
+
+  .habilidad-item {
+    display: none;
+  }
+
+  .habilidad-activa {
+    display: block;
+  }
+
+  .habilidad {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .habilidad img {
+    width: 100px;
+    height: 100px;
+  }
